@@ -1,0 +1,228 @@
+body {
+    background-color: darkred;
+}
+
+.main {
+    color: gold;
+    font-size: 170px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.satauri {
+    width: 100%;
+    height: 210px;
+    background-color: #660708;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+    height:70px ;
+    
+}
+
+.nav a {
+    color: gold;
+    font-size: 30px;
+    font-family: "Cormorant Garamond", serif;
+    text-decoration: none;
+    height: 30px;
+}
+a:hover{
+    color: yellow; 
+    font-weight: 500;
+   
+}
+
+.tibisi {
+    display: flex;
+    justify-content: flex-end;
+    width: 910px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+}
+
+
+.one{
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 350px;
+    width: 590px;
+}
+
+.card{
+    background-color: #660708;
+    width: 1300px;
+    height: 420px;
+    /* margin-left: 65px; */
+    margin-top: 65px;
+    display: flex; 
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+.cardtext{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+    color: gold;
+    width: 600px;
+   
+}
+
+.two{
+    width: 680px !important;
+    /* padding-left: 10px;
+    padding-top: 10px; */
+     height: 370px; 
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(99, 11, 11);
+    height: 110px !important;
+    bottom: 0% !important;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 50px;
+    
+}
+
+
+.ft{
+    color: darkorange;
+    width: 90px;
+}
+
+
+.footertext{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+
+.shesavsebi{
+    width: 400px;
+    height: 400px;
+}
+
+
+.sec{
+    padding-bottom: 50px;
+}
+
+
+.fotoebi{
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.freddie{
+    background-color: #660708;
+    width: 900px;
+    height: 420px;
+    /* margin-left: 65px; */
+    margin-top: 65px;
+    display: flex; 
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+
+.smallcard{
+    width: 300px;
+    background-color: #660708;
+    height: 350px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.smallcardtext{
+    color: gold;
+    font-family:  "Cormorant Garamond", serif;
+}
+
+
+.smallcards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.debili{
+    width:  300px;
+    height: 200px;
+}
+
+
+.cardphotos{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: baseline;
+    width: 100%;
+    height: 450px;
+    padding-bottom: 50px;
+
+}
+
+.wpadding{
+    padding: none;
+}
+
+
+.brianbig{
+    width: 280px;
+    height: 400px;
+    padding: none;
+}
+
+
+.ajika{
+    width: 280px;
+    height: 400px;
+    padding: none;
+}
+
+.rogera{
+    width: 280px;
+    height: 400px;
+}
+
+
+.BBB{
+  width: 1519.2px;
+ 
+
+}
+
+
+.soc{
+    display: flex;
+    justify-content: center;
+    padding: -1333px;
+}
