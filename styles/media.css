@@ -1,0 +1,779 @@
+@media screen and (max-width: 1245px) {
+    .BBB{
+        width: 100%;
+
+    }
+   
+}
+@media screen and (max-width: 1500px) {
+    .menu { 
+        display: flex !important;
+        justify-content: flex-end;
+        font-size: 50px;
+       
+        }
+        .nav{
+            display: none;
+        }
+    .tibisi{
+        display: none;
+    }
+
+    .card{ width: 900px;
+        height: 220px;
+        
+    }
+
+    .cardtext{
+        font-size: 15px;
+        width: 600px;
+    }
+
+    .one{
+        height: 200px;
+        width: 390px;
+    }
+
+    .two{
+        width: 480px !important;
+        height: 220px; 
+    }
+
+    .fotoebi{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+    .shesavsebi{
+        width: 900px;
+        height: 900px;
+    }
+
+    .footertext{
+     flex-wrap: wrap;
+     gap: 30px;
+    }
+
+    .footer{
+        height: 500px !important; 
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .stikeri{
+        width: 167px !important;
+        height: 167px !important;
+    }
+
+    .ft{
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 911px){
+    .menu { 
+        display: flex !important;
+        justify-content: flex-end;
+        font-size: 50px;
+       
+        }
+        .nav{
+            display: none;
+        }
+    .tibisi{
+        display: none;
+    }
+
+    .card{ width: 700px;
+        height: 220px;
+        
+    }
+
+    .cardtext{
+        font-size: 12px;
+        width: 600px;
+    }
+
+    .one{
+        height: 200px;
+        width: 390px;
+    }
+
+    .two{
+        width: 480px !important;
+        height: 220px; 
+    }
+
+    .fotoebi{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+    .shesavsebi{
+        width: 700px;
+        height: 700px;
+    }
+
+    .footertext{
+     flex-wrap: wrap;
+     gap: 30px;
+     font-size: 10px;
+    }
+
+    .footer{
+        height: 260px !important; 
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: 10px;
+    }
+
+    .stikeri{
+        width: 167px !important;
+        height: 167px !important;
+    }
+
+    .ft{
+        width: 60px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .menu { 
+        display: flex !important;
+        justify-content: flex-end;
+        font-size: 50px;
+       
+        }
+        .nav{
+            display: none;
+        }
+    .tibisi{
+        display: none;
+    }
+
+    .card{ width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardtext{
+        font-size: 20px;
+        width: 600px;
+    }
+
+    .one{
+        height: 400px;
+        width: 100%;
+    }
+
+    .two{
+        width: 100% !important;
+        height: 390px; 
+    }
+
+    .fotoebi{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+    .shesavsebi{
+        width: 100%;
+        height: 700px;
+    }
+
+    .footertext{
+     flex-wrap: wrap;
+     gap: 30px;
+     font-size: 9px;
+    }
+
+    .footer{
+        height: 260px !important; 
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: 9px;
+    }
+
+    .stikeri{
+        width: 167px !important;
+        height: 167px !important;
+    }
+
+    .ft{
+        width: 60px;
+    }
+
+}
+
+@media screen and (max-width: 635px) {
+    .menu { 
+        display: flex !important;
+        justify-content: flex-end;
+        font-size: 40px;
+       
+        }
+        .nav{
+            display: none;
+        }
+    .tibisi{
+        display: none;
+    }
+
+    .card{ width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardtext{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .one{
+        height: 400px;
+        width: 100%;
+    }
+
+    .two{
+        width: 100% !important;
+        height: 390px; 
+    }
+
+    .fotoebi{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+    .shesavsebi{
+        width: 100%;
+        height: 700px;
+    }
+
+    .footertext{
+     flex-wrap: wrap;
+     gap: 30px;
+     font-size: 8px;
+     line-height: normal;
+    }
+
+    .footer{
+        height: 200px !important; 
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: 8px;
+    }
+
+    .stikeri{
+        width: 67px !important;
+        height: 67px !important;
+    }
+
+    .ft{
+        width: 60px;
+    }
+
+    .main{
+        font-size: 140px;
+    }
+
+}
+
+@media screen and (max-width: 526px) {
+    .menu { 
+        display: flex !important;
+        justify-content: flex-end;
+        font-size: 40px;
+       
+        }
+        .nav{
+            display: none;
+        }
+    .tibisi{
+        display: none;
+    }
+
+    .card{ width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardtext{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .one{
+        height: 400px;
+        width: 100%;
+    }
+
+    .two{
+        width: 100% !important;
+        height: 390px; 
+    }
+
+    .fotoebi{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+    .shesavsebi{
+        width: 100%;
+        height: 700px;
+    }
+
+    .footertext{
+     flex-wrap: wrap;
+     gap: 30px;
+     font-size: 7px;
+    }
+
+    .footer{
+        height: 260px !important; 
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: 7px;
+    }
+
+    .stikeri{
+        width: 67px !important;
+        height: 67px !important;
+    }
+
+    .ft{
+        width: 60px;
+    }
+
+    .main{
+        font-size: 100px;
+    }
+
+}
+
+@media screen and (max-width: 526px) {
+    .menu { 
+        display: flex !important;
+        justify-content: flex-end;
+        font-size: 40px;
+       
+        }
+        .nav{
+            display: none;
+        }
+    .tibisi{
+        display: none;
+    }
+
+    .card{ width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardtext{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .one{
+        height: 400px;
+        width: 100%;
+    }
+
+    .two{
+        width: 100% !important;
+        height: 390px; 
+    }
+
+    .fotoebi{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+    .shesavsebi{
+        width: 100%;
+        height: 700px;
+    }
+
+    .footertext{
+     flex-wrap: wrap;
+     gap: 30px;
+     font-size: 7px;
+    }
+
+    .footer{
+        height: 260px !important; 
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: 7px;
+    }
+
+    .stikeri{
+        width: 67px !important;
+        height: 67px !important;
+    }
+
+    .ft{
+        width: 60px;
+    }
+
+    .main{
+        font-size: 80px;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+
+.smallcards{
+    flex-direction: column;
+    align-items: center;
+}
+
+.Au{
+    display: none;
+}
+
+.wpadding{
+    display: none;
+}
+
+.freddie{
+    width: 900px;
+}
+
+.smallcard{ 
+    width: 900px;
+    margin-bottom: 50px;
+
+}
+
+.debili{
+    width: 900px;
+    height: 400px;
+}
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    .smallcards{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Au{
+        display: none;
+    }
+    
+    .wpadding{
+        display: none;
+    }
+    
+    .freddie{
+        width: 100%;
+    }
+    
+    .smallcard{ 
+        width: 100%;
+        margin-bottom: 50px;
+    
+    }
+    
+    .debili{
+        width: 100%;
+        height: 400px;
+    }
+    }
+
+
+    @media screen and (max-width: 625px) {
+
+        .smallcards{
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .Au{
+            display: none;
+        }
+        
+        .wpadding{
+            display: none;
+        }
+        
+        .freddie{
+            width: 100%;
+        }
+        
+        .smallcard{ 
+            width: 100%;
+            margin-bottom: 50px;
+        
+        }
+        
+        .debili{
+            width: 100%;
+            height: 400px;
+        }
+
+        .cardtext{
+            font-size: 9px;
+        }
+        }
+
+
+
+        @media screen and (max-width: 375px) {
+
+            .smallcards{
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .Au{
+                display: none;
+            }
+            
+            .wpadding{
+                display: none;
+            }
+            
+            .freddie{
+                width: 100%;
+            }
+            
+            .smallcard{ 
+                width: 100%;
+                margin-bottom: 50px;
+            
+            }
+            
+            .debili{
+                width: 100%;
+                height: 400px;
+            }
+    
+            .cardtext{
+                font-size: 7px;
+            }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            @media screen and (max-width: 1500px) {
+                .ajika{
+                    display: none;
+                }
+
+               .brianbig{
+                    display: none;
+               }
+
+            }
+
+
+
+
+
+
+
+            @media screen and (max-width: 1500px) {
+                .muscard{
+                    width: 725px;
+                    height: 450px;
+                    align-items: center;
+                }
+
+                .mustext{
+                    font-size: 25px;
+                }
+                .footerone{
+                    height: 130px !important; 
+                    flex-wrap: wrap;
+                    gap: 5px;
+                }
+
+                .footertextone{
+                    flex-wrap: wrap;
+                     gap: 40px;
+                     line-height: normal;
+                     font-size: 9px;
+                }
+
+                .stikeri{
+                    height: 67px;
+                    width: 67px;
+
+                }
+            }
+
+
+
+            @media screen and (max-width: 750px) {
+                .muscard{
+                    width: 525px;
+                    height: 450px;
+                    align-items: center;
+                }
+
+                .mustext{
+                    font-size: 25px;
+                }
+                .footerone{
+                    height: 180px !important; 
+                    flex-wrap: wrap;
+                    gap: 5px;
+                }
+
+                .footertextone{
+                    flex-wrap: wrap;
+                     gap: 40px;
+                     line-height: normal;
+                     font-size: 9px;
+                }
+
+                .stikeri{
+                    height: 67px;
+                    width: 67px;
+
+                }
+            }
+
+
+
+
+            @media screen and (max-width: 585px) {
+                .muscard{
+                    width: 420px;
+                    height: 450px;
+                    align-items: center;
+                }
+
+                .mustext{
+                    font-size: 17px;
+                }
+                .footerone{
+                    height: 220px !important; 
+                    flex-wrap: wrap;
+                    gap: 5px;
+                    margin-top: 50px;
+                }
+
+                .footertextone{
+                    flex-wrap: wrap;
+                     gap: 40px;
+                     line-height: normal;
+                     font-size: 7px;
+                }
+
+                .stikeri{
+                    height: 67px;
+                    width: 67px;
+
+                }
+
+                .sss{ 
+                    justify-content: baseline;
+                }
+            }
+
+
+
+            @media screen and (max-width: 450px) {
+                .muscard{
+                    width: 350px;
+                    height: 450px;
+                    align-items: center;
+                }
+
+                .mustext{
+                    font-size: 17px;
+                }
+                .footerone{
+                    height: 220px !important; 
+                    flex-wrap: wrap;
+                    gap: 5px;
+                    margin-top: 50px;
+                }
+
+                .footertextone{
+                    flex-wrap: wrap;
+                     gap: 40px;
+                     line-height: normal;
+                     font-size: 7px;
+                }
+
+                .stikeri{
+                    height: 67px;
+                    width: 67px;
+
+                }
+
+                .sss{ 
+                    justify-content: baseline;
+                }
+            }
+
+
+
+            @media screen and (max-width: 379px) {
+                .muscard{
+                    width: 330px;
+                    height: 450px;
+                    align-items: center;
+                }
+
+                .mustext{
+                    font-size: 15px;
+                }
+                .footerone{
+                    height: 220px !important; 
+                    flex-wrap: wrap;
+                    gap: 5px;
+                    margin-top: 50px;
+                }
+
+                .footertextone{
+                    flex-wrap: wrap;
+                     gap: 40px;
+                     line-height: normal;
+                     font-size: 7px;
+                }
+
+                .stikeri{
+                    height: 67px;
+                    width: 67px;
+
+                }
+
+                .sss{ 
+                    justify-content: baseline;
+                }
+            }

@@ -1,5 +1,12 @@
-body {
-    background-color: darkred;
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body { 
+    background-color: darkred !important; 
 }
 
 .main {
@@ -12,13 +19,19 @@ body {
     width: 100%;
     height: 210px;
     background-color: #660708;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 20px;
 
 }
 
 .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 60px;
     margin-top: 30px;
@@ -40,8 +53,12 @@ a:hover{
 }
 
 .tibisi {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     width: 910px;
 }
 
@@ -50,8 +67,12 @@ a:hover{
 }
 
 .sec {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 
@@ -68,10 +89,17 @@ a:hover{
     height: 420px;
     /* margin-left: 65px; */
     margin-top: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; 
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-wrap: nowrap; 
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 10px;
    
 }
@@ -86,34 +114,42 @@ a:hover{
 
 .two{
     width: 680px !important;
-    /* padding-left: 10px;
-    padding-top: 10px; */
      height: 370px; 
 }
 
 .footer{
     width: 100%;
     background-color: rgb(99, 11, 11);
-    height: 110px !important;
+    height: 120px !important;
     bottom: 0% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    padding-top: 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
     
 }
 
 
 .ft{
+    font-family:  "Cormorant Garamond", serif;
     color: darkorange;
-    width: 90px;
+    width: 100px;
 }
 
 
 .footertext{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     gap: 150px;
+    line-height: 20px;
 }
 
 
@@ -129,9 +165,13 @@ a:hover{
 
 
 .fotoebi{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 50px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 50px;
 }
 
@@ -141,10 +181,17 @@ a:hover{
     height: 420px;
     /* margin-left: 65px; */
     margin-top: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; 
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-wrap: nowrap; 
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 10px;
    
 }
@@ -154,9 +201,16 @@ a:hover{
     width: 300px;
     background-color: #660708;
     height: 350px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 50px;
 }
 
@@ -168,8 +222,12 @@ a:hover{
 
 
 .smallcards{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 50px;
 }
 
@@ -180,10 +238,16 @@ a:hover{
 
 
 .cardphotos{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 10px;
-    align-items: baseline;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
     width: 100%;
     height: 450px;
     padding-bottom: 50px;
@@ -215,14 +279,72 @@ a:hover{
 
 
 .BBB{
-  width: 1519.2px;
- 
+  /* width: 1519.2px; */
+ width: 100%;
 
 }
 
 
 .soc{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: -1333px;
+}
+
+
+.caruseli{
+    width: 500px;
+    height: 400px;
+}
+
+
+.muscard{
+    width: 1450px;
+    height: 100px;
+    background-color: #660708;
+    margin: 30px;
+}
+
+.mustext{
+    font-family:  "Cormorant Garamond", serif;
+    color: gold;
+}
+
+
+.SSS{
+    justify-content: center;
+}
+
+.footerone{
+    width: 100%;
+    background-color: rgb(99, 11, 11);
+    height: 170px !important;
+    bottom: 0% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+    
+}
+
+.footertextone{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 150px;
+}
+
+.menu {
+    display: none;
 }
